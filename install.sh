@@ -2,6 +2,9 @@
 
 BASEDIR=$HOME/code/dotfiles
 
+# base16 shell
+( cd base16-builder-ruby && bundle install && ./builder update )
+
 # git
 ln -fsv $BASEDIR/git/gitconfig $HOME/.gitconfig
 ln -fsv $BASEDIR/git/gitignore $HOME/.gitignore
