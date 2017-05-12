@@ -1,0 +1,40 @@
+[user]
+	name = Cody Frazer
+	email = frazercr@gmail.com
+[core]
+	editor = vim
+	excludesfile = /Users/cfrazer/.gitignore
+	whitespace = trailing-space,space-before-tab
+[alias]
+	b = branch
+	c = commit
+	cl = clone
+	cg = config --global
+	cm = commit -m
+	co = checkout
+	cp = cherry-pick
+	cv = commit -v
+	d = diff
+	dc = diff --cached
+	dss = diff --shortstat
+	l = log
+	p = push
+	po = push origin
+	pom = push origin master
+	s = status
+	u = pull
+	uo = pull origin
+	uoh = pull origin HEAD
+	uom = pull origin master
+	wd = diff --word-diff
+	wdc = diff --word-diff --cached
+	f = fetch
+	ca = commit --amend
+	a = add
+	pr = log ...master
+[color]
+	ui = auto
+[merge]
+	tool = vimdiff
+[push]
+	default = simple
