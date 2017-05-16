@@ -27,6 +27,7 @@ set listchars=tab:▸\ ,eol:¬
 set ruler
 set nonumber
 set title
+set clipboard=unnamed
 set laststatus=2
 set noerrorbells
 set novisualbell
