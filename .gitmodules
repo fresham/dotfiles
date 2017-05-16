@@ -7,3 +7,9 @@
 [submodule "rbenv"]
 	path = rbenv
 	url = https://github.com/rbenv/rbenv.git
+[submodule "vim/bundle/pathogen"]
+	path = vim/bundle/pathogen
+	url = git@github.com:tpope/vim-pathogen.git
+[submodule "vim/bundle/tmux-navigator"]
+	path = vim/bundle/tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git

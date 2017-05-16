@@ -13,5 +13,9 @@ ln -fsv $BASEDIR/git/gitignore $HOME/.gitignore
 ln -fsv $BASEDIR/fish/config.fish $HOME/.config/fish/config.fish
 ln -fsv $BASEDIR/fish/functions/fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish
 
+# tmux
+ln -fsv $BASEDIR/tmux.conf $HOME/.tmux.conf
+
 # vim
 ln -fsv $BASEDIR/vim/vimrc $HOME/.vimrc
+ln -fsv $BASEDIR/vim $HOME/.vim
