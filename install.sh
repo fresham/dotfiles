@@ -20,3 +20,9 @@ ln -fsv $BASEDIR/tmux.conf $HOME/.tmux.conf
 # vim
 ln -fsv $BASEDIR/vim/vimrc $HOME/.vimrc
 ln -fsv $BASEDIR/vim $HOME/.vim
+
+# rbenv
+ln -fhsv $BASEDIR/rbenv $HOME/.rbenv
+cd ~/.rbenv && src/configure && make -C src
+mkdir -p $BASEDIR/rbenv/plugins
+ln -fhsv $BASEDIR/ruby-build/ $BASEDIR/rbenv/plugins/ruby-build
