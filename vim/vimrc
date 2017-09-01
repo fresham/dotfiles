@@ -46,4 +46,5 @@ au BufRead,BufNewFile Bowerfile set filetype=ruby
 
 " mappings
 let mapleader="\\"
+nmap <silent> <Leader>\ :Commentary<CR>
 nmap <silent> <Leader>l :set list!<CR> " toggle invisibles
