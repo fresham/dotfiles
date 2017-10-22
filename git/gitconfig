@@ -21,17 +21,20 @@
 	p = push
 	po = push origin
 	pom = push origin master
+  pod = push origin develop
 	s = status
 	u = pull
 	uo = pull origin
 	uoh = pull origin HEAD
 	uom = pull origin master
+  uod = pull origin develop
 	wd = diff --word-diff
 	wdc = diff --word-diff --cached
 	f = fetch
 	ca = commit --amend
 	a = add
 	pr = log ...master
+	aa = add -A
 [color]
 	ui = auto
 [merge]
