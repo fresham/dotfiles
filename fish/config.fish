@@ -1,6 +1,4 @@
 # rbenv
-set PATH $HOME/.rbenv/bin $PATH
-set PATH $HOME/.rbenv/shims $PATH
 status --is-interactive; and source (rbenv init -|psub)
 
 # base16 shell
