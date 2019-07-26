@@ -4,9 +4,6 @@
 [submodule "Fira"]
 	path = Fira
 	url = https://github.com/mozilla/Fira.git
-[submodule "rbenv"]
-	path = rbenv
-	url = https://github.com/rbenv/rbenv.git
 [submodule "vim/bundle/pathogen"]
 	path = vim/bundle/pathogen
 	url = git@github.com:tpope/vim-pathogen.git
@@ -16,9 +13,6 @@
 [submodule "vim/bundle/commentary"]
 	path = vim/bundle/commentary
 	url = git@github.com:tpope/vim-commentary.git
-[submodule "ruby-build"]
-	path = ruby-build
-	url = https://github.com/rbenv/ruby-build.git
 [submodule "vim/bundle/slim"]
 	path = vim/bundle/slim
 	url = git@github.com:slim-template/vim-slim.git
