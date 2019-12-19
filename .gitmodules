@@ -1,9 +1,6 @@
 [submodule "base16-builder-ruby"]
 	path = base16-builder-ruby
 	url = https://github.com/obahareth/base16-builder-ruby.git
-[submodule "Fira"]
-	path = Fira
-	url = https://github.com/mozilla/Fira.git
 [submodule "vim/bundle/pathogen"]
 	path = vim/bundle/pathogen
 	url = git@github.com:tpope/vim-pathogen.git

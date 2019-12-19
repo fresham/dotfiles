@@ -17,7 +17,11 @@ set -Ux EDITOR 'vim -f'
 
 [ -e $HOME/.config/fish/secrets.fish ]; and . $HOME/.config/fish/secrets.fish
 
-nvm use 6.10.3
+#nvm use 6.10.3
+
+export NVM_DIR="$HOME/.nvm"
+#[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+#[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 
 set SVN_EDITOR /usr/bin/env vim
