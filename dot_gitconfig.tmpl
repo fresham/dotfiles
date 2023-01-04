@@ -1,0 +1,43 @@
+[user]
+	name = Cody Frazer
+	email = {{ .email }}
+[core]
+	editor = code -w
+	excludesfile = /Users/cody/.gitignore
+	whitespace = trailing-space,space-before-tab
+[alias]
+	b = branch
+	c = commit
+	cl = clone
+	cg = config --global
+	cm = commit -m
+	co = checkout
+	cp = cherry-pick
+	cv = commit -v
+	d = diff
+	dc = diff --cached
+	dss = diff --shortstat
+	l = log
+	p = push
+	po = push origin
+	pom = push origin master
+  pod = push origin develop
+	s = status
+	u = pull
+	uo = pull origin
+	uoh = pull origin HEAD
+	uom = pull origin master
+  uod = pull origin develop
+	wd = diff --word-diff
+	wdc = diff --word-diff --cached
+	f = fetch
+	ca = commit --amend
+	a = add
+	pr = log ...master
+	aa = add -A
+[color]
+	ui = auto
+[merge]
+	tool = vimdiff
+[push]
+	default = simple
